@@ -7,18 +7,18 @@ parameters:
 #    akuma_bootswatch.icon_prefix: ~
 services:
     akuma_bootswatch.twig.icon_extension:
-        class: %akuma_bootswatch.twig.icon_extension.class%
-        arguments: [%akuma_bootswatch.icon_prefix% , %akuma_bootswatch.icon_tag%]
+        class: "%akuma_bootswatch.twig.icon_extension.class%"
+        arguments: ["%akuma_bootswatch.icon_prefix%" , "%akuma_bootswatch.icon_tag%"]
         tags: [{ name: twig.extension }]
     akuma_bootswatch.twig.label_extension:
-        class: %akuma_bootswatch.twig.label_extension.class%
+        class: "%akuma_bootswatch.twig.label_extension.class%"
         tags: [{ name: twig.extension }]
     akuma_bootswatch.twig.badge_extension:
-        class: %akuma_bootswatch.twig.badge_extension.class%
+        class: "%akuma_bootswatch.twig.badge_extension.class%"
         tags: [{ name: twig.extension }]
     akuma_bootswatch.twig.menu_extension:
-        class: %akuma_bootswatch.twig.menu_extension.class%
+        class: "%akuma_bootswatch.twig.menu_extension.class%"
         tags: [{ name: twig.extension }]
     akuma_bootswatch.twig.form_extension:
-        class: %akuma_bootswatch.twig.form_extension.class%
+        class: "%akuma_bootswatch.twig.form_extension.class%"
         tags: [{ name: twig.extension }]
